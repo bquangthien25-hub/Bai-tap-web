@@ -1,0 +1,112 @@
+/* Tổng quát trang web */
+#container {
+    width: 960px;
+    margin: auto; /* Căn giữa trang web [cite: 200, 201] */
+}
+
+/* Xóa định dạng float để các phần không đè lên nhau [cite: 215] */
+.clear {
+    clear: both;
+}
+
+/* Header */
+.logo {
+    width: 140px;
+    margin: 0 10px;
+    float: left;
+}
+.nav {
+    width: 780px;
+    margin: 0 10px;
+    float: left;
+    padding-top: 50px;
+}
+.nav ul {
+    list-style: none;
+    float: right;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    padding: 0 20px 5px 20px;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    color: #889297;
+}
+.nav ul li a:hover {
+    color: #d23434;
+    border-bottom: 3px solid #626b70;
+}
+
+/* Slider */
+#slider {
+    width: 940px;
+    margin: 10px 10px;
+}
+
+/* Menu bên trái (Aside) */
+#aside {
+    width: 220px;
+    margin: 10px;
+    float: left;
+}
+#aside h2 {
+    color: #596267;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border-bottom: 3px solid #dce1e3;
+}
+#aside ul {
+    list-style: none;
+    padding: 0;
+}
+#aside ul li a {
+    color: #596267;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    border-bottom: 1px solid #dce1e3;
+}
+
+/* Nội dung chính (Content) */
+#content {
+    width: 720px;
+    float: left;
+}
+.san_pham, .sp_cao_cap {
+    width: 220px;
+    float: left;
+    margin: 10px;
+}
+.san_pham h3 { color: #303131; font-size: 15px; }
+.sp_cao_cap h3 { color: #d23434; font-size: 15px; }
+.sp_cao_cap a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #d23434;
+    padding: 0 15px;
+    float: right;
+    line-height: 30px;
+}
+
+/* Footer */
+#footer {
+    width: 940px;
+    height: 100px;
+    background-color: #333637;
+    margin: 10px;
+    color: #fff;
+}
+.dia_chi {
+    width: 700px;
+    float: left;
+    font-size: 16px;
+}
+.icon {
+    width: 60px;
+    float: left;
+    padding-top: 20px;
+    margin: 0 10px;
+}
